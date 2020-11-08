@@ -533,9 +533,9 @@ html {
 
 /*# sourceMappingURL=styles.css.map */
 
-/*---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1600px) {
   @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
   @font-face {
     font-family: "jam-icons";
@@ -554,8 +554,6 @@ html {
 
   body {
     font-family: "Raleway", sans-serif;
-    width: 720px;
-    height: 1280px;
   }
   body .content-wrapper {
     width: 85%;
@@ -587,14 +585,14 @@ html {
   }
   .main-header .logo img {
     width: 70px;
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: -6px;
   }
   .main-header .main-menu ul {
     display: flex;
     flex-flow: row wrap;
     list-style: none;
-    margin-right: 60px;
+    margin-right: -20px;
     flex-basis: 45%;
     flex-grow: 1;
     padding: 0px;
@@ -701,19 +699,21 @@ html {
   }
 
   .about .content p {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 60px;
     margin-bottom: 35px;
     text-shadow: 0px 0px 1px rgb(117, 117, 117);
   }
 
   .image-content {
-    width: 45%;
+    width: 40%;
+    margin-right: 50px;
+    
   }
   .image-content img {
-    width: 450px;
-    margin-left: 45px;
-    margin-top: 40px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 80px;
   }
   .image-content img {
     filter: brightness(60%);
@@ -781,14 +781,15 @@ html {
   .product-button-play {
     width: 140px;
     text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     border: 1px solid blue;
-    margin-left: 220px;
+    margin-left: 180px;
     margin-top: 45px;
     margin-bottom: -20px;
-    padding: 95px;
-    font-size: 29px;
-    padding-top: 95px;
+    padding: 50px;
+    padding-top: 50px;
+    font-size: 25px;
     color: blue;
     border-radius: 30px;
   }
@@ -822,12 +823,12 @@ html {
     text-align: center;
     text-decoration: none;
     border: 1px solid green;
-    margin-right: 220px;
+    margin-right: 180px;
     margin-top: 45px;
     margin-bottom: -20px;
-    padding: 95px;
-    font-size: 29px;
-    padding-top: 95px;
+    padding: 50px;
+    padding-top: 50px;
+    font-size: 25px;
     color: green;
     border-radius: 30px;
   }
@@ -875,6 +876,10 @@ html {
 
   .gears {
     margin-left: 18px;
+  }
+  .last {
+    position: absolute;
+    visibility: hidden;
   }
 
   .products .product-item .product-info, .products2 .product-item .product-info {
@@ -1013,6 +1018,7 @@ html {
     background-color: transparent;
     border-radius: 5px;
     margin-top: 20px;
+    margin-left: 180px;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
