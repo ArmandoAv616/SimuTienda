@@ -554,6 +554,8 @@ html {
 
   body {
     font-family: "Raleway", sans-serif;
+    width: 720px;
+    height: 1280px;
   }
   body .content-wrapper {
     width: 85%;
