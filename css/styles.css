@@ -987,9 +987,10 @@ html {
     margin-left: 31px;
   }
   .contact .form form .input-50 {
-    width: 42%;
+    width: 39%;
     padding: 9px;
     margin: 9px;
+    margin-left: 11.6px;
     border: 2px solid #ccc;
     border-radius: 7px;
     font-family: "Raleway";
