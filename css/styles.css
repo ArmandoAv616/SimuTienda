@@ -535,7 +535,7 @@ html {
 
 /*--------------------------------------------------------*/
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 600px) {
   @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
   @font-face {
     font-family: "jam-icons";
