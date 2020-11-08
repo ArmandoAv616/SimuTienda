@@ -707,7 +707,7 @@ html {
 
   .image-content {
     width: 40%;
-    margin-right: 50px;
+    margin-right: 70px;
     
   }
   .image-content img {
@@ -779,7 +779,7 @@ html {
   }
 
   .product-button-play {
-    width: 140px;
+    width: 120px;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
@@ -788,7 +788,7 @@ html {
     margin-top: 45px;
     margin-bottom: -20px;
     padding: 50px;
-    padding-top: 50px;
+    padding-top: 65px;
     font-size: 25px;
     color: blue;
     border-radius: 30px;
@@ -819,7 +819,7 @@ html {
   }
 
   .product-button-xbox {
-    width: 140px;
+    width: 120px;
     text-align: center;
     text-decoration: none;
     border: 1px solid green;
