@@ -49,7 +49,7 @@ a:hover {
 
 /*-----------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1300px) {
   .finish-buy .content-wrapper {
     width: 85%;
     margin-left: auto;
