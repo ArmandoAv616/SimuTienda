@@ -592,7 +592,7 @@ html {
     display: flex;
     flex-flow: row wrap;
     list-style: none;
-    margin-right: -50px;
+    margin-right: -70px;
     flex-basis: 45%;
     flex-grow: 1;
     padding: 0px;
